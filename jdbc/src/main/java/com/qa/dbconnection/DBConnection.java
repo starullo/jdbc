@@ -9,9 +9,9 @@ import java.sql.SQLException;
 import com.qa.utils.DBConfig;
 
 public class DBConnection {
-	private String url = "jdbc:mysql://localhost:3306/jdbs?db_name&serverTimezone=UTC";
-	private String user = "root";
-	private String pw = "alalal";
+	private String url = "";
+	private String user = "";
+	private String pw = "";
 	private PreparedStatement ps;
 	private Connection con;
 	private ResultSet rs;
